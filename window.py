@@ -1,8 +1,9 @@
-from tkinter import *
-from Hide import hide
-from Unhide import unhide
+# Import libraries
+from tkinter import *           # Import Tkinter
+from Hide import hide           # Import Hide.py
+from Unhide import unhide       # Import Unhide.py
 
-
+# GUI for hiding message in image
 def hide_message():
 
     def get_data():
@@ -49,6 +50,7 @@ def hide_message():
     hide_window.mainloop()
 
 
+# GUI for Revealing message in image
 def unhide_message():
 
     def get_input():

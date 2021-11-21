@@ -1,1 +1,1 @@
-# steganography-tool
+# Steganography Tool
