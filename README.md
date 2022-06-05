@@ -31,3 +31,6 @@ Run the window.py file
 
 ## Images
 
+![image](https://user-images.githubusercontent.com/72513126/172053331-5de32a5a-f82e-4412-9175-bda4d8afc9c8.png)
+![image](https://user-images.githubusercontent.com/72513126/172053347-d421ea21-8db7-43b4-ad51-c25759122492.png)
+![image](https://user-images.githubusercontent.com/72513126/172053357-9b8773dc-6095-4ce2-8c2e-e1adf142129d.png)
