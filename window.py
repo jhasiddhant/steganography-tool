@@ -16,7 +16,11 @@ def hide_message():
 
     window.destroy()
     hide_window = Tk()
+
     hide_window.geometry("1000x600")
+    hide_window.title("Steganography")                   
+    icon = PhotoImage(file='icon.png')              
+    hide_window.iconphoto(True, icon)
 
     img = PhotoImage(file="background.png")
     label = Label(hide_window, image=img)
@@ -65,6 +69,9 @@ def unhide_message():
 
     unhide_window = Tk()
     unhide_window.geometry("1000x600")
+    unhide_window.title("Steganography")                   
+    icon = PhotoImage(file='icon.png')              
+    unhide_window.iconphoto(True, icon)
 
     img = PhotoImage(file="background.png")
     label = Label(unhide_window, image=img)
@@ -90,8 +97,11 @@ def unhide_message():
 if __name__=='__main__':
 
     window = Tk()
+    
     window.geometry("1000x600")
-
+    window.title("Steganography")                   
+    icon = PhotoImage(file='icon.png')              
+    window.iconphoto(True, icon)                    
     img = PhotoImage(file="background.png")
     label = Label(window,image=img)
     label.place(x=0, y=0)
